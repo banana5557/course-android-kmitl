@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewyellow1"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#ffd000"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="hello"/>
+
+    <TextView
+        android:id="@+id/textViewBlue1"
+
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#ffd000"
+
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="hello"/>
+    <TextView
+        android:id="@+id/textViewBlue2"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#ffd000"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+
+        android:gravity="center"
+        android:text="hello"/>
+    <TextView
+        android:id="@+id/textViewBlue3"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#ffd000"
+        android:gravity="center"
+        android:text="hello"/>
+
+    <TextView
+        android:id="@+id/textViewBlue4"
+
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#ffd000"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="hello"/>
+
+    <TextView
+        android:id="@+id/textViewBlue5"
+
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#ffd000"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="hello"/>
+
+    <TextView
+        android:id="@+id/textViewBlue6"
+
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#ffd000"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="hello"/>
+
+    <TextView
+        android:id="@+id/textViewBlue7"
+
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#ffd000"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="hello"/>
+    <TextView
+        android:id="@+id/textViewBlue8"
+
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#ffd000"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="hello"/>
+
+</RelativeLayout>
