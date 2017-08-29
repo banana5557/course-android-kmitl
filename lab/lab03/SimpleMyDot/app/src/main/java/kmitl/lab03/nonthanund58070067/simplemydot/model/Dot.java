@@ -15,6 +15,33 @@ public class Dot {
     private int centerX;
     private int centerY;
     private int radius;
+    private int red;
+    private int green;
+    private int blue;
+
+    public int getRed() {
+        return red;
+    }
+
+    public void setRed(int red) {
+        this.red = red;
+    }
+
+    public int getGreen() {
+        return green;
+    }
+
+    public void setGreen(int green) {
+        this.green = green;
+    }
+
+    public int getBlue() {
+        return blue;
+    }
+
+    public void setBlue(int blue) {
+        this.blue = blue;
+    }
 
     public Dot(DotChangedListener listener, int centerX, int centerY, int radius) {
         this.listener = listener;
